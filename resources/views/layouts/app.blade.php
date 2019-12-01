@@ -51,6 +51,10 @@
                         @else
 
                         <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/admin/product') }}">Product</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link" href="{{ url('/admin/article') }}">Article</a>
                         </li>
 
